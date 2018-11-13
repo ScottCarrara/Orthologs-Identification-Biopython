@@ -7,7 +7,7 @@ from Bio.Blast import NCBIXML
 # checking for correct number of arguments
 if len(sys.argv) != 4 and len(sys.argv) != 5:
     print("Incorrect number of arguments supplied")
-    quit()
+    sys.exit()
 
 # FOR TESTING
 # cd_file = open('celegans_drosophila.xml')
