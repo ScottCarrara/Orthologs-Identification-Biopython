@@ -2,7 +2,7 @@
 
 The ortholog scripts take as input, two different BLAST outputs in xml format and identify all pairs of putative orthologs from the two different species and generate the output in a text file. 
 
-These scripts only consider e-valuesless than 10e-20.
+These scripts only consider e-values less than 10e-20.
 
 The idea is simple, let’s say in Species A the proteins are noted A1, A2, A3 and in Species B they are B1, B2, B3. Let’s say A1 matches B1, B2, and B3 (i.e. "matches" means there is a HSP between them). Now let’s assume that B1 and B3 match A1. Pairs of putative orthologs would be:
 
@@ -39,18 +39,19 @@ Additional dependencies are required to use this shell script.
 ## Running the tests
 
 Run the script using the command line.
+The `ortholog_dict.py` uses a dictionary data structure to efficiently find the putative ortholog pairs and <b>should be used</b>. The `ortholog_array.py` uses a simple array and set data structures to find the putative ortholog pairs which is not efficient and <b>should not be used</b>.
 
 In Windows, open the Command Prompt then enter:
 
 ```
-C:\Python36\python.exe C:\Users\...Path....\orthologs.py cross_1.xml cross_2.xml orthologs_output.txt [FALSE]
+C:\Python36\python.exe C:\Users\...Path....\ortholog_dict.py cross_1.xml cross_2.xml orthologs_output.txt [FALSE]
 ```
 
 In Unix, Linux and other BSD based systems, open bash shell then enter
 
 ```
 chmod +x orthologs.py
-python3 orthologs.py cross_1.xml cross_2.xml orthologs_output.txt [FALSE]
+python3 ortholog_dict.py cross_1.xml cross_2.xml orthologs_output.txt [FALSE]
 ```
 The `[FALSE]` flag is optional for redefining the definition of homolog pairs.
 
