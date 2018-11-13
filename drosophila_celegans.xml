@@ -1,0 +1,2830 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>celeganstest.fa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|671162305|ref|NP_001188986.2| CG30271, isoform I [Drosophila melanogaster]</BlastOutput_query-def>
+  <BlastOutput_query-len>501</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>gi|671162305|ref|NP_001188986.2| CG30271, isoform I [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>501</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232898|ref|NP_510528.3|</Hit_id>
+  <Hit_def>Protein H03A11.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510528</Hit_accession>
+  <Hit_len>1218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.47748</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>PPKVMPMNGQAGGQNGRKR</Hsp_qseq>
+      <Hsp_hseq>PPILKADNGRATSQSGRER</Hsp_hseq>
+      <Hsp_midline>PP +   NG+A  Q+GR+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.57344</Hsp_evalue>
+      <Hsp_query-from>263</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>2434</Hsp_hit-from>
+      <Hsp_hit-to>2476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>PSVNGRKSLDDSLENTSELDTNDGTSANEDDD-LSKVDAEPEA</Hsp_qseq>
+      <Hsp_hseq>PSVMMHEDDDDAYESDEEDKGNSYSDDEEDEDTLSCENAAPAS</Hsp_hseq>
+      <Hsp_midline>PSV   +  DD+ E+  E   N  +   ED+D LS  +A P +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>21.557</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>2.0131</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1200</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>NLETVQAQLEPPVPSALVTCKDG</Hsp_qseq>
+      <Hsp_hseq>NLDTADGL--PPIPTALSWVRDG</Hsp_hseq>
+      <Hsp_midline>NL+T      PP+P+AL   +DG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>20.4014</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>4.62862</Hsp_evalue>
+      <Hsp_query-from>363</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>DAVIVENGEVREEAPEEDQPTEPEDVGKPEESATESELEGNKKT</Hsp_qseq>
+      <Hsp_hseq>DAVTHSNDE-----PEDSSPTESEKKRDFEHENVRSEHSDATRT</Hsp_hseq>
+      <Hsp_midline>DAV   N E     PE+  PTE E     E     SE     +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.83218</Hsp_evalue>
+      <Hsp_query-from>432</Hsp_query-from>
+      <Hsp_query-to>489</Hsp_query-to>
+      <Hsp_hit-from>796</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>QVEQAEQVEQAEQVEQAEQVEHEKQETVDEPESNAKDEADPEVAAMSVEEREPESEND</Hsp_qseq>
+      <Hsp_hseq>HVENVENDVRTTTASMSRTVDHQRT-TTEEPEANTVEEEPPAPTTTVFSFPQPEYTYD</Hsp_hseq>
+      <Hsp_midline> VE  E   +      +  V+H++  T +EPE+N  +E  P          +PE   D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.9117</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>PEDVGKPEESATESELEGNKKTEVEPEEPEEPVEHVEHVEQAVEQ-AEQVEQAEQVEQAEQVEQAEQVEHEKQETVDE</Hsp_qseq>
+      <Hsp_hseq>PQELIAELKKALKSEISGKPKIFKEAEEPE--IDFVAFGTKNREMNAIDTENSEEIEKFEPIGATRFAQCSVRTTVPE</Hsp_hseq>
+      <Hsp_midline>P+++    + A +SE+ G  K   E EEPE  ++ V    +  E  A   E +E++E+ E +      +   + TV E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>20.0162</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>6.67777</Hsp_evalue>
+      <Hsp_query-from>266</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>NGRKSLDDSLENTSELDTNDGTSANEDDDLSKVDAEPEA-EVASPLQRRPETPATFNTINGDGDGEDSEPENIGRAVSANGGGEAEENG-VGQDEGGGGDAVI--VENG</Hsp_qseq>
+      <Hsp_hseq>SGRKNVSTKNVMLSMLDIMLADTKKNDGLLGVVGVENDCKEIAALAQAYDASSLLVNC--EDQVGESQMPSSTALQMSSTQGGKYRAFAKLAKSVGWNNLAVINFVEDG</Hsp_hseq>
+      <Hsp_midline>+GRK++       S LD     +   D  L  V  E +  E+A+  Q    +    N    D  GE   P +    +S+  GG+      + +  G    AVI  VE+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>9.15454</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1237</Hsp_hit-from>
+      <Hsp_hit-to>1270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>PPVPSALVTCKDGNGLNIIHKAAGLGHTKLLEYL</Hsp_qseq>
+      <Hsp_hseq>PTLTLNLVQQIDAGILNLNFKGTAVGNGILSEYL</Hsp_hseq>
+      <Hsp_midline>P +   LV   D   LN+  K   +G+  L EYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>58</Statistics_hsp-len>
+      <Statistics_eff-space>6493494</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>gi|671162303|ref|NP_726249.2| CG30271, isoform H [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>487</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.5236</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1208</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>10</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>13</Hsp_align-len>
+      <Hsp_qseq>PPVPSALVTCKDG</Hsp_qseq>
+      <Hsp_hseq>PPIPTALSWVRDG</Hsp_hseq>
+      <Hsp_midline>PP+P+AL   +DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.53551</Hsp_evalue>
+      <Hsp_query-from>418</Hsp_query-from>
+      <Hsp_query-to>475</Hsp_query-to>
+      <Hsp_hit-from>796</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>QVEQAEQVEQAEQVEQAEQVEHEKQETVDEPESNAKDEADPEVAAMSVEEREPESEND</Hsp_qseq>
+      <Hsp_hseq>HVENVENDVRTTTASMSRTVDHQRT-TTEEPEANTVEEEPPAPTTTVFSFPQPEYTYD</Hsp_hseq>
+      <Hsp_midline> VE  E   +      +  V+H++  T +EPE+N  +E  P          +PE   D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.83566</Hsp_evalue>
+      <Hsp_query-from>371</Hsp_query-from>
+      <Hsp_query-to>453</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PEDVGKPEESATESELEGNKKTEVEPEEPEEPVEHVEHVEQAVEQ-AEQVEQAEQVEQAEQVEQAEQVEHEKQETVDEPESNAK</Hsp_qseq>
+      <Hsp_hseq>PQELIAELKKALKSEISGKPKIFKEAEEPE--IDFVAFGTKNREMNAIDTENSEEIEKFEPIGATRFAQCSVRTTV--PENSPK</Hsp_hseq>
+      <Hsp_midline>P+++    + A +SE+ G  K   E EEPE  ++ V    +  E  A   E +E++E+ E +      +   + TV  PE++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>8.94823</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1237</Hsp_hit-from>
+      <Hsp_hit-to>1270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>PPVPSALVTCKDGNGLNIIHKAAGLGHTKLLEYL</Hsp_qseq>
+      <Hsp_hseq>PTLTLNLVQQIDAGILNLNFKGTAVGNGILSEYL</Hsp_hseq>
+      <Hsp_midline>P +   LV   D   LN+  K   +G+  L EYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>58</Statistics_hsp-len>
+      <Statistics_eff-space>6288282</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>gi|671162301|ref|NP_726250.3| CG30271, isoform G [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>501</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232898|ref|NP_510528.3|</Hit_id>
+  <Hit_def>Protein H03A11.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510528</Hit_accession>
+  <Hit_len>1218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.47748</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>PPKVMPMNGQAGGQNGRKR</Hsp_qseq>
+      <Hsp_hseq>PPILKADNGRATSQSGRER</Hsp_hseq>
+      <Hsp_midline>PP +   NG+A  Q+GR+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.57344</Hsp_evalue>
+      <Hsp_query-from>263</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>2434</Hsp_hit-from>
+      <Hsp_hit-to>2476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>PSVNGRKSLDDSLENTSELDTNDGTSANEDDD-LSKVDAEPEA</Hsp_qseq>
+      <Hsp_hseq>PSVMMHEDDDDAYESDEEDKGNSYSDDEEDEDTLSCENAAPAS</Hsp_hseq>
+      <Hsp_midline>PSV   +  DD+ E+  E   N  +   ED+D LS  +A P +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>21.557</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>2.0131</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1200</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>NLETVQAQLEPPVPSALVTCKDG</Hsp_qseq>
+      <Hsp_hseq>NLDTADGL--PPIPTALSWVRDG</Hsp_hseq>
+      <Hsp_midline>NL+T      PP+P+AL   +DG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>20.4014</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>4.62862</Hsp_evalue>
+      <Hsp_query-from>363</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>DAVIVENGEVREEAPEEDQPTEPEDVGKPEESATESELEGNKKT</Hsp_qseq>
+      <Hsp_hseq>DAVTHSNDE-----PEDSSPTESEKKRDFEHENVRSEHSDATRT</Hsp_hseq>
+      <Hsp_midline>DAV   N E     PE+  PTE E     E     SE     +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.83218</Hsp_evalue>
+      <Hsp_query-from>432</Hsp_query-from>
+      <Hsp_query-to>489</Hsp_query-to>
+      <Hsp_hit-from>796</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>QVEQAEQVEQAEQVEQAEQVEHEKQETVDEPESNAKDEADPEVAAMSVEEREPESEND</Hsp_qseq>
+      <Hsp_hseq>HVENVENDVRTTTASMSRTVDHQRT-TTEEPEANTVEEEPPAPTTTVFSFPQPEYTYD</Hsp_hseq>
+      <Hsp_midline> VE  E   +      +  V+H++  T +EPE+N  +E  P          +PE   D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.9117</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>PEDVGKPEESATESELEGNKKTEVEPEEPEEPVEHVEHVEQAVEQ-AEQVEQAEQVEQAEQVEQAEQVEHEKQETVDE</Hsp_qseq>
+      <Hsp_hseq>PQELIAELKKALKSEISGKPKIFKEAEEPE--IDFVAFGTKNREMNAIDTENSEEIEKFEPIGATRFAQCSVRTTVPE</Hsp_hseq>
+      <Hsp_midline>P+++    + A +SE+ G  K   E EEPE  ++ V    +  E  A   E +E++E+ E +      +   + TV E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>20.0162</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>6.67777</Hsp_evalue>
+      <Hsp_query-from>266</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>NGRKSLDDSLENTSELDTNDGTSANEDDDLSKVDAEPEA-EVASPLQRRPETPATFNTINGDGDGEDSEPENIGRAVSANGGGEAEENG-VGQDEGGGGDAVI--VENG</Hsp_qseq>
+      <Hsp_hseq>SGRKNVSTKNVMLSMLDIMLADTKKNDGLLGVVGVENDCKEIAALAQAYDASSLLVNC--EDQVGESQMPSSTALQMSSTQGGKYRAFAKLAKSVGWNNLAVINFVEDG</Hsp_hseq>
+      <Hsp_midline>+GRK++       S LD     +   D  L  V  E +  E+A+  Q    +    N    D  GE   P +    +S+  GG+      + +  G    AVI  VE+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>9.15454</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1237</Hsp_hit-from>
+      <Hsp_hit-to>1270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>PPVPSALVTCKDGNGLNIIHKAAGLGHTKLLEYL</Hsp_qseq>
+      <Hsp_hseq>PTLTLNLVQQIDAGILNLNFKGTAVGNGILSEYL</Hsp_hseq>
+      <Hsp_midline>P +   LV   D   LN+  K   +G+  L EYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>58</Statistics_hsp-len>
+      <Statistics_eff-space>6493494</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>gi|671162298|ref|NP_001288144.1| unextended, isoform H [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>834</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232918|ref|NP_001263981.1|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform f [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001263981</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.7126</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.5914</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>NKLLLQKANDFNLSQNLSSSRTRRTIANSFRIVGIRLEDETVETKNGIPTVLVDKEQQF</Hsp_qseq>
+      <Hsp_hseq>DQLVTAEADDEKSAQQVDEDRTEDQVPD---ITGTEYVDPMTTSMDGIEDLPANDEAQF</Hsp_hseq>
+      <Hsp_midline>++L+  +A+D   +Q +   RT   + +   I G    D    + +GI  +  + E QF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232914|ref|NP_510852.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510852</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>2.23473</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>NKLLLQKANDFNLSQNLSSSRTRRTIANSFRIVGIRLEDETVETKNGIPTVLVDKEQQF</Hsp_qseq>
+      <Hsp_hseq>DQLVTAEADDEKSAQQVDEDRTEDQVPD---ITGTEYVDPMTTSMDGIEDLPANDEAQF</Hsp_hseq>
+      <Hsp_midline>++L+  +A+D   +Q +   RT   + +   I G    D    + +GI  +  + E QF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.1718</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>4.81558</Hsp_evalue>
+      <Hsp_query-from>233</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>2200</Hsp_hit-from>
+      <Hsp_hit-to>2298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>ASKIAPVRDQGNYLLCSIL----LGNVLVNSTFTILLDGLTSGLFAVIFSTLAIVLFGEITPQAVCSRHGLAIGAKTILVTKTVMAITAPLSYPVSRILDKLLGEE</Hsp_qseq>
+      <Hsp_hseq>SSPLAYIENQGSDLLAAISELSDVPNMAGDLQKCYMLYNLCQGFSCCIYLSLTDI------DQIYSSMLNLAPKPAPIGGSEN-HVVTPPVKWPGVEALVALLGRE</Hsp_hseq>
+      <Hsp_midline>+S +A + +QG+ LL +I     + N+  +     +L  L  G    I+ +L  +       Q   S   LA     I  ++    +T P+ +P    L  LLG E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>20.7866</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>6.04795</Hsp_evalue>
+      <Hsp_query-from>633</Hsp_query-from>
+      <Hsp_query-to>675</Hsp_query-to>
+      <Hsp_hit-from>2197</Hsp_hit-from>
+      <Hsp_hit-to>2243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>MFESGPFTYFGTQA--LVPNV--VIDSPTQMGSLQSLNMDSKIRQSF</Hsp_qseq>
+      <Hsp_hseq>MFVSSPLAYIENQGSDLLAAISELSDVPNMAGDLQKCYMLYNLCQGF</Hsp_hseq>
+      <Hsp_midline>MF S P  Y   Q   L+  +  + D P   G LQ   M   + Q F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.1718</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>5.14845</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>518</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>ILRRLLNQDVFHNIKTKGKSKDDPSLYIFTQGK---AVDFFVLILEGR</Hsp_qseq>
+      <Hsp_hseq>ITYHLLTQDVPFQVGTHGKKA-----VIMSTGKVDPAVASYNLTVEAR</Hsp_hseq>
+      <Hsp_midline>I   LL QDV   + T GK        I + GK   AV  + L +E R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>20.4014</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>8.32926</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1611</Hsp_hit-from>
+      <Hsp_hit-to>1721</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>KFPSFINEFFICAKTAEKTTNHSKAATTTPLEHQGNSDFLKIKTFEPLIP----VWLAIIIIVTCLGFSA--------LFSGLNLGLMSM-DRTELKILRNTGTEKEKKYASKI</Hsp_qseq>
+      <Hsp_hseq>QIPAAVDEFDLIIEAVDRNGNHDSTHVIVYIDGAPTS---STEEHEPLFPAEPLVWNVTEGTTQSFQLQTASDDVIYRIVGGNDDGLFELSSRGELKIVSELDRTRQKSYTLQV</Hsp_hseq>
+      <Hsp_midline>+ P+ ++EF +  +  ++  NH        ++    S     +  EPL P    VW                      +  G + GL  +  R ELKI+      ++K Y  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>20.7866</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>7.48058</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1262</Hsp_hit-from>
+      <Hsp_hit-to>1302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>ANGINGTSVDTSNKLLLQKANDFNLSQNLSSSRTRRTIANS</Hsp_qseq>
+      <Hsp_hseq>GNGILSEYLQTNSEIVLQYGRGFNGVDDWNNLKTACNLTNS</Hsp_hseq>
+      <Hsp_midline> NGI    + T+++++LQ    FN   + ++ +T   + NS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>62</Statistics_hsp-len>
+      <Statistics_eff-space>11263480</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>gi|671150231|ref|NP_001189262.3| pre-mod(mdg4)-V, partial [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>164</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|456124786|ref|NP_001256746.2|</Hit_id>
+  <Hit_def>Protein C18D4.4, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001256746</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.037445</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>GMHLKYEEIVADVTGI</Hsp_qseq>
+      <Hsp_hseq>GMQLKYEATGGDLTGM</Hsp_hseq>
+      <Hsp_midline>GM LKYE    D+TG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>2.35603</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>952</Hsp_hit-from>
+      <Hsp_hit-to>956</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>5</Hsp_identity>
+      <Hsp_positive>5</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>5</Hsp_align-len>
+      <Hsp_qseq>RFWRC</Hsp_qseq>
+      <Hsp_hseq>RFWRC</Hsp_hseq>
+      <Hsp_midline>RFWRC</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>17.705</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>8.27791</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>EEIVADVTGIVGGTRVVSRRK</Hsp_qseq>
+      <Hsp_hseq>ETSIIDLTGEGGGDPLWDRQK</Hsp_hseq>
+      <Hsp_midline>E  + D+TG  GG  +  R+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.8606</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>3.82908</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>6</Hsp_identity>
+      <Hsp_positive>9</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>ESPATIDVSELG</Hsp_qseq>
+      <Hsp_hseq>ESPSIVDAYDLG</Hsp_hseq>
+      <Hsp_midline>ESP+ +D  +LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.8606</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>4.20655</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1510</Hsp_hit-from>
+      <Hsp_hit-to>1526</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>6</Hsp_identity>
+      <Hsp_positive>9</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>17</Hsp_align-len>
+      <Hsp_qseq>VVATTPRHPQHQQTTQQ</Hsp_qseq>
+      <Hsp_hseq>LTVTSPRQPWYYQQGSQ</Hsp_hseq>
+      <Hsp_midline>+  T+PR P + Q   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|453232906|ref|NP_510603.2|</Hit_id>
+  <Hit_def>Protein F59F4.1 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510603</Hit_accession>
+  <Hit_len>667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>17.705</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>7.73554</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>9</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>IVGGTRVVSRRK</Hsp_qseq>
+      <Hsp_hseq>IHGGTEVMKRRR</Hsp_hseq>
+      <Hsp_midline>I GGT V+ RR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>49</Statistics_hsp-len>
+      <Statistics_eff-space>1703265</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>gi|669632495|ref|NP_001015498.4| Occludin-Related Y, partial [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>743</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232910|ref|NP_001024654.2|</Hit_id>
+  <Hit_def>Protein STO-5, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001024654</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.237993</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>507</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RNLVGL----QMVRRNDEIVVIKEKLQIAQNALDNGTTQYNQRVE-----DIRL</Hsp_qseq>
+      <Hsp_hseq>RNVLGTKTLSEMLSERDAIASISEKV------LDEGTDPWGVKVERVEIKDIRL</Hsp_hseq>
+      <Hsp_midline>RN++G     +M+   D I  I EK+      LD GT  +  +VE     DIRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232908|ref|NP_001024653.2|</Hit_id>
+  <Hit_def>Protein STO-5, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001024653</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>0.253015</Hsp_evalue>
+      <Hsp_query-from>463</Hsp_query-from>
+      <Hsp_query-to>507</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RNLVGL----QMVRRNDEIVVIKEKLQIAQNALDNGTTQYNQRVE-----DIRL</Hsp_qseq>
+      <Hsp_hseq>RNVLGTKTLSEMLSERDAIASISEKV------LDEGTDPWGVKVERVEIKDIRL</Hsp_hseq>
+      <Hsp_midline>RN++G     +M+   D I  I EK+      LD GT  +  +VE     DIRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.456886</Hsp_evalue>
+      <Hsp_query-from>627</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>1858</Hsp_hit-from>
+      <Hsp_hit-to>1890</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>KHKLVVQQRIN---RQMAKKLKTLAAERSLDMV</Hsp_qseq>
+      <Hsp_hseq>KHPLVVRQRLNNVGAQVGTTEKLLALGRQLESI</Hsp_hseq>
+      <Hsp_midline>KH LVV+QR+N    Q+    K LA  R L+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>2.25665</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>613</Hsp_query-to>
+      <Hsp_hit-from>951</Hsp_hit-from>
+      <Hsp_hit-to>1011</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>VHRWRILKGED---PKKFELLEKLQLLQKRSLKQSIENSNLKNK-------LCEAQKTNET</Hsp_qseq>
+      <Hsp_hseq>VRFWRCAKATDPVSPNKFEWREWNMISDNHPSELGVEGSIVKVNAAHSGRIACAYQKPNTT</Hsp_hseq>
+      <Hsp_midline>V  WR  K  D   P KFE  E   +      +  +E S +K          C  QK N T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.557</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>3.13528</Hsp_evalue>
+      <Hsp_query-from>415</Hsp_query-from>
+      <Hsp_query-to>459</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>KNKENLVAALRKDMREMKAKNEMLAKTISNDELKFMKMGHELEEM</Hsp_qseq>
+      <Hsp_hseq>KSPQELIAELKKALKSEISGKPKIFKEAEEPEIDFVAFGTKNREM</Hsp_hseq>
+      <Hsp_midline>K+ + L+A L+K ++   +    + K     E+ F+  G +  EM</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>20.4014</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>7.61392</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>2732</Hsp_hit-from>
+      <Hsp_hit-to>2746</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>10</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>KTISNDELKFMKMGH</Hsp_qseq>
+      <Hsp_hseq>KPISRDELKRLLMAH</Hsp_hseq>
+      <Hsp_midline>K IS DELK + M H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>20.4014</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>7.31623</Hsp_evalue>
+      <Hsp_query-from>667</Hsp_query-from>
+      <Hsp_query-to>683</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>10</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>17</Hsp_align-len>
+      <Hsp_qseq>SFAGKISEIGELSILSD</Hsp_qseq>
+      <Hsp_hseq>SVFGQIQEIGPFHVSSD</Hsp_hseq>
+      <Hsp_midline>S  G+I EIG   + SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>61</Statistics_hsp-len>
+      <Statistics_eff-space>9961974</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>gi|669632493|ref|NP_001015497.4| Pp1-Y2 [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>313</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.228738</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>818</Hsp_hit-from>
+      <Hsp_hit-to>882</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>FYDECKRRYTIK-----LWRTFVDCYSCMPVSAIVDEKIFCCHGGLSPDLLNMNQIGQLARPCDVPDKGLLC</Hsp_qseq>
+      <Hsp_hseq>FAPEIIRRYAVKHDLSKLELAKADIYSL----AIVLYEIYGRQGPFGDDLLDSDEIIEQLK---FPDGGALT</Hsp_hseq>
+      <Hsp_midline>F  E  RRY +K     L     D YS     AIV  +I+   G    DLL+ ++I +  +    PD G L </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>4.3666</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1052</Hsp_hit-from>
+      <Hsp_hit-to>1106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GYPPASNYLFLGDYVDRGKQSIETMCLLLAYKIKY-PENFFLLR-GNHESAGINRIYG</Hsp_qseq>
+      <Hsp_hseq>GLPEVNSYLHAGEV---ASASLELLDSIKTFTVSHCPDEKLRLRIGNHTGPVVTGVVG</Hsp_hseq>
+      <Hsp_midline>G P  ++YL  G+       S+E +  +  + + + P+    LR GNH    +  + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>19.2458</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>6.3787</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>704</Hsp_hit-from>
+      <Hsp_hit-to>729</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>FLLRGNHESAGINRIYGFYDECKRRYTI</Hsp_qseq>
+      <Hsp_hseq>LLMNETHEN--LNRFFGLINESDLIFTI</Hsp_hseq>
+      <Hsp_midline> L+   HE+  +NR +G  +E    +TI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>5.349</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>2793</Hsp_hit-from>
+      <Hsp_hit-to>2862</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>IFCCH-------GGLSPDLLNMNQIGQLARPCDVPD------KGLLCDLLWSDPDPKIMGWSDNDRGVSV</Hsp_qseq>
+      <Hsp_hseq>IMCCAKRRARNTAGVMEGAYMINSVGSGPRPYDVENISRLTAQNVLAGRPLPDPQEHRIDMSSNDTDIAL</Hsp_hseq>
+      <Hsp_midline>I CC         G+      +N +G   RP DV +      + +L      DP    +  S ND  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>55</Statistics_hsp-len>
+      <Statistics_eff-space>3794922</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>gi|669632491|ref|NP_001247402.2| CG43176, partial [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>86</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232914|ref|NP_510852.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510852</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>0.112752</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>PRAKSSKQRRNCAKPKPKCARPRKACPRPRNSMECGKPKAKPRCLKPKSSKP</Hsp_qseq>
+      <Hsp_hseq>PTPKTAASEKQSVPPTPKSAAPSEVPPTPKSAAPSEVPPT------PKSAAP</Hsp_hseq>
+      <Hsp_midline>P  K++   +    P PK A P +  P P+++     P        PKS+ P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>20.7866</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>0.337568</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>KCSKPRVWKSCPKPRAKSSKQRRNCAKPKPKCARPRKACPRPRNSMECGKP</Hsp_qseq>
+      <Hsp_hseq>KSAAPSEVPLTPKSAAQSS------VPPTPKSAVPSEAPPTPRSAAPSDVP</Hsp_hseq>
+      <Hsp_midline>K + P      PK  A+SS        P PK A P +A P PR++     P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>17.3198</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>4.4817</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>AKPKPKCARPRKACPRPRNS</Hsp_qseq>
+      <Hsp_hseq>APPTPRSAAPSDVPPTPKSN</Hsp_hseq>
+      <Hsp_midline>A P P+ A P    P P+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232918|ref|NP_001263981.1|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform f [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001263981</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.557</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>0.14454</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>PRAKSSKQRRNCAKPKPKCARPRKACPRPRNSMECGKPKAKPRCLKPKSSKP</Hsp_qseq>
+      <Hsp_hseq>PTPKTAASEKQSVPPTPKSAAPSEVPPTPKSAAPSEVPPT------PKSAAP</Hsp_hseq>
+      <Hsp_midline>P  K++   +    P PK A P +  P P+++     P        PKS+ P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>20.4014</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>0.428212</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>KCSKPRVWKSCPKPRAKSSKQRRNCAKPKPKCARPRKACPRPRNSMECGKP</Hsp_qseq>
+      <Hsp_hseq>KSAAPSEVPLTPKSAAQSS------VPPTPKSAVPSEAPPTPRSAAPSDVP</Hsp_hseq>
+      <Hsp_midline>K + P      PK  A+SS        P PK A P +A P PR++     P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>17.3198</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>5.20057</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>AKPKPKCARPRKACPRPRNS</Hsp_qseq>
+      <Hsp_hseq>APPTPRSAAPSDVPPTPKSN</Hsp_hseq>
+      <Hsp_midline>A P P+ A P    P P+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232916|ref|NP_510854.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510854</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>0.826766</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>PKPKCARPRKACPRPRNS</Hsp_qseq>
+      <Hsp_hseq>PTPKSAVPSEAPPTPRSA</Hsp_hseq>
+      <Hsp_midline>P PK A P +A P PR++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>17.3198</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>4.6878</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>PRAKSSKQRRNCAKPKPKCARPRKACPRPRNS</Hsp_qseq>
+      <Hsp_hseq>PTPKTAASEKQSVPPTPKSAAPSEVPPTPKSA</Hsp_hseq>
+      <Hsp_midline>P  K++   +    P PK A P +  P P+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>0.866587</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>537</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>KPKPKCARPRKACPRPRNSMECGKPKAKP</Hsp_qseq>
+      <Hsp_hseq>QSKPECGFNNELCP-------AGIPESEP</Hsp_hseq>
+      <Hsp_midline>+ KP+C    + CP        G P+++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.2458</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>1.0974</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>5</Hsp_identity>
+      <Hsp_positive>6</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>9</Hsp_align-len>
+      <Hsp_qseq>RVWKSCPKP</Hsp_qseq>
+      <Hsp_hseq>RIWKETPAP</Hsp_hseq>
+      <Hsp_midline>R+WK  P P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|453232898|ref|NP_510528.3|</Hit_id>
+  <Hit_def>Protein H03A11.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510528</Hit_accession>
+  <Hit_len>1218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>17.705</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>3.58384</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>25</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>6</Hsp_identity>
+      <Hsp_positive>7</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>14</Hsp_align-len>
+      <Hsp_qseq>CARPRKACPRPRNS</Hsp_qseq>
+      <Hsp_hseq>CTCGRHKCPHDRNA</Hsp_hseq>
+      <Hsp_midline>C   R  CP  RN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>42</Statistics_hsp-len>
+      <Statistics_eff-space>656920</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>gi|669632489|ref|NP_001104068.2| CG40801 [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>142</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>0.32456</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1492</Hsp_hit-from>
+      <Hsp_hit-to>1521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CQMIPIEWVTRRLATGSSIAMSACPRATGWY</Hsp_qseq>
+      <Hsp_hseq>CQFLGDQWLIEKLVTRRNLTVTS-PRQPWYY</Hsp_hseq>
+      <Hsp_midline>CQ +  +W+  +L T  ++ +++ PR   +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>1.94482</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>764</Hsp_hit-from>
+      <Hsp_hit-to>775</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>9</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>12</Hsp_align-len>
+      <Hsp_qseq>GFQFIVEGYKLG</Hsp_qseq>
+      <Hsp_hseq>GLQFLHEGSKIG</Hsp_hseq>
+      <Hsp_midline>G QF+ EG K+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232914|ref|NP_510852.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510852</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.8606</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>3.02787</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>951</Hsp_hit-from>
+      <Hsp_hit-to>969</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>EGYKLGKVIIEGKTKQVYD</Hsp_qseq>
+      <Hsp_hseq>ERWRLGNVVYGGLYRKKYD</Hsp_hseq>
+      <Hsp_midline>E ++LG V+  G  ++ YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232898|ref|NP_510528.3|</Hit_id>
+  <Hit_def>Protein H03A11.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510528</Hit_accession>
+  <Hit_len>1218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.8606</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>3.55309</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LSKDRITAGDGVKAHD--------LAGKAEISNTTNGQ</Hsp_qseq>
+      <Hsp_hseq>INSPKYSKKQAVKAHDRHSATHREIHGKQNMAHTTQNQ</Hsp_hseq>
+      <Hsp_midline>++  + +    VKAHD        + GK  +++TT  Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>17.705</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>7.68054</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>KDRITAGDGVKAHDLAGKAEISNTTNGQ</Hsp_qseq>
+      <Hsp_hseq>KDNSNSGTSIDNAKVQTRAEKNGTNNQQ</Hsp_hseq>
+      <Hsp_midline>KD   +G  +    +  +AE + T N Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|453232916|ref|NP_510854.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510854</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.0902</Hsp_bit-score>
+      <Hsp_score>35</Hsp_score>
+      <Hsp_evalue>4.94495</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>846</Hsp_hit-from>
+      <Hsp_hit-to>881</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>FIELSAVNKKAGFQFIVEGYKLGKVIIEGKTKQVYD</Hsp_qseq>
+      <Hsp_hseq>YQQLSTKLDQACRQMELLRWRLGNVVYGGLYRKKYD</Hsp_hseq>
+      <Hsp_midline>+ +LS    +A  Q  +  ++LG V+  G  ++ YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>17.3198</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>9.24841</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>538</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>PEQPGLCLLLSKDRITAGDGVKAHDLAGKAEISNT</Hsp_qseq>
+      <Hsp_hseq>PHEPIYLDALRNDMENKDTSVLFHDKLLERRVSNT</Hsp_hseq>
+      <Hsp_midline>P +P     L  D       V  HD   +  +SNT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>47</Statistics_hsp-len>
+      <Statistics_eff-space>1410275</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>gi|669632487|ref|NP_001104136.3| CG41020, partial [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>287</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.1718</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>1.65977</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>925</Hsp_hit-from>
+      <Hsp_hit-to>954</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>GHLKAINSIAFINLPKIIFTGSHDYSCRLW</Hsp_qseq>
+      <Hsp_hseq>GHLSSSSLYPACETPYVLVSSDNDDSVRFW</Hsp_hseq>
+      <Hsp_midline>GHL + +       P ++ +  +D S R W</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>20.7866</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>2.14933</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>2749</Hsp_hit-from>
+      <Hsp_hit-to>2764</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>10</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>TGSHDYSCRLWTQGGR</Hsp_qseq>
+      <Hsp_hseq>TGSSDGSIKVWKWGAK</Hsp_hseq>
+      <Hsp_midline>TGS D S ++W  G +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>19.631</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>5.0416</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>2863</Hsp_hit-from>
+      <Hsp_hit-to>2905</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>LVSSYKGHLKAINSIAFINLPKIIFTGSHDYSCRLWTQGGRYL</Hsp_qseq>
+      <Hsp_hseq>LVHSWVAHPEGATCALYVPNQQTIFSGGRHGEICLWDIRQRQL</Hsp_hseq>
+      <Hsp_midline>LV S+  H +      ++   + IF+G       LW    R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.8606</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>7.39854</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TQGGRY--LGTLGTVLPWSRLT</Hsp_qseq>
+      <Hsp_hseq>TQGGKYRAFAKLAKSVGWNNLA</Hsp_hseq>
+      <Hsp_midline>TQGG+Y     L   + W+ L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.8606</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>7.71093</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1651</Hsp_hit-from>
+      <Hsp_hit-to>1703</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LWTQGGRYLGTLGTVLPWSRLTPFERAGDDNHLYRMPPDIKKVASSTTLKVISGI</Hsp_qseq>
+      <Hsp_hseq>LWLNGGP--GSSSLMGLFEENGPFRVSKDSQTLSRNPYSWNKFANVLYLESPIGV</Hsp_hseq>
+      <Hsp_midline>LW  GG   G+   +  +    PF  + D   L R P    K A+   L+   G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>18.4754</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>9.64612</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>561</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>LWTQGGRYLGTLGTVLPWSRLT---PFERAGDDNHLY</Hsp_qseq>
+      <Hsp_hseq>LWLNGGP-----GSSSLWGMLTENGPFRPNKDGQTLY</Hsp_hseq>
+      <Hsp_midline>LW  GG      G+   W  LT   PF    D   LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>54</Statistics_hsp-len>
+      <Statistics_eff-space>3431158</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>gi|669632485|ref|NP_001015505.4| male fertility factor kl2, partial [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>4459</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>2.63001</Hsp_evalue>
+      <Hsp_query-from>2654</Hsp_query-from>
+      <Hsp_query-to>2739</Hsp_query-to>
+      <Hsp_hit-from>466</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LQNKKNFFLRLWVHECFRVFSDRLVDDSDQFWFVNTINDILGKHFE---VTFHSLCPSKVPPFFGDFAHPQ----GFYEDLQVDFLRTFMKNQ</Hsp_qseq>
+      <Hsp_hseq>LDVKLEILLRQWTKSNDVLFSIHPVDGSLLTWTVEWLDD----HFRQPVISYSSRLPGALPSSDSMSLHSKLNTFNPHEPIYLDALRNDMENK</Hsp_hseq>
+      <Hsp_midline>L  K    LR W      +FS   VD S   W V  ++D    HF    +++ S  P  +P       H +      +E + +D LR  M+N+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>7.36988</Hsp_evalue>
+      <Hsp_query-from>3856</Hsp_query-from>
+      <Hsp_query-to>3908</Hsp_query-to>
+      <Hsp_hit-from>2186</Hsp_hit-from>
+      <Hsp_hit-to>2242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>PVLDLKATFDESISQTPLIFVLSPGVDPAQSLISLSESVKMA---QRMYSL-SLGQG</Hsp_qseq>
+      <Hsp_hseq>PLLDAAVSTPKMFVSSPLAYIENQGSDLLAAISELSDVPNMAGDLQKCYMLYNLCQG</Hsp_hseq>
+      <Hsp_midline>P+LD   +  +    +PL ++ + G D   ++  LS+   MA   Q+ Y L +L QG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>4.64224</Hsp_evalue>
+      <Hsp_query-from>3905</Hsp_query-from>
+      <Hsp_query-to>3938</Hsp_query-to>
+      <Hsp_hit-from>221</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>LGQGQAPIATKLIMDGIKDGNWVFLANCHLSLSW</Hsp_qseq>
+      <Hsp_hseq>VGESQMPSSTALQMSSTQGGKYRAFAKLAKSVGW</Hsp_hseq>
+      <Hsp_midline>+G+ Q P +T L M   + G +   A    S+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232918|ref|NP_001263981.1|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform f [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001263981</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>4.89569</Hsp_evalue>
+      <Hsp_query-from>4334</Hsp_query-from>
+      <Hsp_query-to>4363</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>ATKTPIDELSWDFYVFVEEDTAAARIIREG</Hsp_qseq>
+      <Hsp_hseq>APEEAVIEIQKDFVAEIEQDNSNAQLVEEG</Hsp_hseq>
+      <Hsp_midline>A +  + E+  DF   +E+D + A+++ EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232916|ref|NP_510854.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510854</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>5.07568</Hsp_evalue>
+      <Hsp_query-from>4334</Hsp_query-from>
+      <Hsp_query-to>4363</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>ATKTPIDELSWDFYVFVEEDTAAARIIREG</Hsp_qseq>
+      <Hsp_hseq>APEEAVIEIQKDFVAEIEQDNSNAQLVEEG</Hsp_hseq>
+      <Hsp_midline>A +  + E+  DF   +E+D + A+++ EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|453232914|ref|NP_510852.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510852</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>5.11186</Hsp_evalue>
+      <Hsp_query-from>4334</Hsp_query-from>
+      <Hsp_query-to>4363</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>ATKTPIDELSWDFYVFVEEDTAAARIIREG</Hsp_qseq>
+      <Hsp_hseq>APEEAVIEIQKDFVAEIEQDNSNAQLVEEG</Hsp_hseq>
+      <Hsp_midline>A +  + E+  DF   +E+D + A+++ EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>75</Statistics_hsp-len>
+      <Statistics_eff-space>62993696</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>gi|669632483|ref|NP_001104482.2| male fertility factor kl3, partial [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>2797</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.6201</Hsp_evalue>
+      <Hsp_query-from>2526</Hsp_query-from>
+      <Hsp_query-to>2558</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>TNEPPAGIRAGLKRTYTNL----SQDFLDYSQSPFYL</Hsp_qseq>
+      <Hsp_hseq>TDSNPIGIRAQIGKSPSLLDIPTSKDNTDHQETSFYL</Hsp_hseq>
+      <Hsp_midline>T+  P GIRA + ++ + L    S+D  D+ ++ FYL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>22.7126</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>6.51741</Hsp_evalue>
+      <Hsp_query-from>2022</Hsp_query-from>
+      <Hsp_query-to>2144</Hsp_query-to>
+      <Hsp_hit-from>1202</Hsp_hit-from>
+      <Hsp_hit-to>1314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>DVAEELDPCLDNL--LDRNLLKVGTQYKIKIGDKEVDWNPAFRCYI-TTKLPNPAYTPEIFARTSIIDFTVTMRGLEDQLLGR--VILAERKELEDERVQLVETVTGNMKKMKELEANLLQKLSTTKG</Hsp_qseq>
+      <Hsp_hseq>DTADGLPPIPTALSWVRDGILIVGMQSEMRVYNQ---WN--FKTVQEKTKSSNPAANPNIVSLT-----VSTSHSMLDQLTRKKEALVSSRS-----RVFLEFVSTMNKAHPKENESQMVLNILKSEG</Hsp_hseq>
+      <Hsp_midline>D A+ L P    L  +   +L VG Q ++++ ++   WN  F+     TK  NPA  P I + T       T   + DQL  +   +++ R      RV L    T N    KE E+ ++  +  ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>2.70002</Hsp_evalue>
+      <Hsp_query-from>2313</Hsp_query-from>
+      <Hsp_query-to>2466</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>TWLNLVQLTNLTPFVNILSKVSGNERAWFTWYKKDAPENEIIPDGYNSLDPFRK----MLLVRSWCMDRTISQCRKYIANSLGDRFAEPVVLNFEELLLESRELMPMICFLSLGSDPSSNIELLAKKNELKCHPISMGQ---GQEIHARKLILSCLEDGGW</Hsp_qseq>
+      <Hsp_hseq>TWSNY-QIDN----TNINEDCYRNQAAWQTSFKQLGINAAV--DNYNSTDSFRGYPCFALSATAAYLNRQDVQAALHVSVNASTNFQTCRNLTYGELSTDLQIRISSI--LTSEKYAQNNMKIMIYNGDLDLWSNFIGAQRFGQEI-AAALKLNTTEDRIW</Hsp_hseq>
+      <Hsp_midline>TW N  Q+ N     NI      N+ AW T +K+      +  D YNS D FR      L   +  ++R   Q   +++ +    F     L + EL  + +  +  I  L+      +N++++    +L      +G    GQEI A  L L+  ED  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232916|ref|NP_510854.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510854</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>7.03284</Hsp_evalue>
+      <Hsp_query-from>1826</Hsp_query-from>
+      <Hsp_query-to>1874</Hsp_query-to>
+      <Hsp_hit-from>822</Hsp_hit-from>
+      <Hsp_hit-to>865</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>ENELAEVQQTLEDAVSKKDAVLDEAKKCQDKMDAATALIGGLAGEKIRW</Hsp_qseq>
+      <Hsp_hseq>EGRIGQLERSLSREVIQKDRLRTEYQQLSTKLDQACRQM-----ELLRW</Hsp_hseq>
+      <Hsp_midline>E  + +++++L   V +KD +  E ++   K+D A   +     E +RW</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>7.2742</Hsp_evalue>
+      <Hsp_query-from>2618</Hsp_query-from>
+      <Hsp_query-to>2639</Hsp_query-to>
+      <Hsp_hit-from>863</Hsp_hit-from>
+      <Hsp_hit-to>884</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>VRYMLGEVQYGGRVTDDYDKRL</Hsp_qseq>
+      <Hsp_hseq>LRWRLGNVVYGGLYRKKYDADL</Hsp_hseq>
+      <Hsp_midline>+R+ LG V YGG     YD  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232914|ref|NP_510852.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510852</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.9422</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>8.88726</Hsp_evalue>
+      <Hsp_query-from>2617</Hsp_query-from>
+      <Hsp_query-to>2639</Hsp_query-to>
+      <Hsp_hit-from>950</Hsp_hit-from>
+      <Hsp_hit-to>972</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TVRYMLGEVQYGGRVTDDYDKRL</Hsp_qseq>
+      <Hsp_hseq>TERWRLGNVVYGGLYRKKYDADL</Hsp_hseq>
+      <Hsp_midline>T R+ LG V YGG     YD  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>71</Statistics_hsp-len>
+      <Statistics_eff-space>39355262</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>gi|669632480|ref|NP_001104042.2| CG41497, partial [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>47</Statistics_hsp-len>
+      <Statistics_eff-space>1365740</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>gi|669632478|ref|NP_001015499.3| male fertility factor kl5 [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>2648</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.44289</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1848</Hsp_hit-from>
+      <Hsp_hit-to>1908</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KEPVDNRPEFFWNYLTKTM-RLKLDKWTKMITTNEFDVIIEFLNNPNKKRIIFTINSGGQLY</Hsp_qseq>
+      <Hsp_hseq>QKPPNHAPTFSMAEYTFTIPQNSTDLGTVMATDPDGD-LIDFSIEPTEYRNLFHVDSSGRIF</Hsp_hseq>
+      <Hsp_midline>++P ++ P F     T T+ +   D  T M T  + D +I+F   P + R +F ++S G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>2.66204</Hsp_evalue>
+      <Hsp_query-from>1013</Hsp_query-from>
+      <Hsp_query-to>1051</Hsp_query-to>
+      <Hsp_hit-from>719</Hsp_hit-from>
+      <Hsp_hit-to>757</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>DDMNNMMSLLKRVAQDPTEVTNMNPYSFYDELQDKSELD</Hsp_qseq>
+      <Hsp_hseq>NEYNALVARCCKNVTDPTQCDFYTPYVFFDYLGNYKAVD</Hsp_hseq>
+      <Hsp_midline>++ N +++   +   DPT+     PY F+D L +   +D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>6.70277</Hsp_evalue>
+      <Hsp_query-from>1325</Hsp_query-from>
+      <Hsp_query-to>1343</Hsp_query-to>
+      <Hsp_hit-from>1317</Hsp_hit-from>
+      <Hsp_hit-to>1335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>6</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>SCYELIDESDLELVALEER</Hsp_qseq>
+      <Hsp_hseq>ACYQAVDDNQKKFYGLDER</Hsp_hseq>
+      <Hsp_midline>+CY+ +D++  +   L+ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232914|ref|NP_510852.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510852</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>7.15993</Hsp_evalue>
+      <Hsp_query-from>446</Hsp_query-from>
+      <Hsp_query-to>473</Hsp_query-to>
+      <Hsp_hit-from>954</Hsp_hit-from>
+      <Hsp_hit-to>981</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>KLEKIVMGGLKGRQITFALEKILEEYNS</Hsp_qseq>
+      <Hsp_hseq>RLGNVVYGGLYRKKYDADLEKAVQYYSS</Hsp_hseq>
+      <Hsp_midline>+L  +V GGL  ++    LEK ++ Y+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232916|ref|NP_510854.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510854</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>7.17458</Hsp_evalue>
+      <Hsp_query-from>446</Hsp_query-from>
+      <Hsp_query-to>473</Hsp_query-to>
+      <Hsp_hit-from>866</Hsp_hit-from>
+      <Hsp_hit-to>893</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>KLEKIVMGGLKGRQITFALEKILEEYNS</Hsp_qseq>
+      <Hsp_hseq>RLGNVVYGGLYRKKYDADLEKAVQYYSS</Hsp_hseq>
+      <Hsp_midline>+L  +V GGL  ++    LEK ++ Y+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.3274</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>7.28775</Hsp_evalue>
+      <Hsp_query-from>1357</Hsp_query-from>
+      <Hsp_query-to>1403</Hsp_query-to>
+      <Hsp_hit-from>1666</Hsp_hit-from>
+      <Hsp_hit-to>1718</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>QGPDPVKIELCRFDLKLVKIMWDFAITIQST------INDWKKTPWKKIDIEN</Hsp_qseq>
+      <Hsp_hseq>QNQDPMDASLFYLALRKKNVLTHLFKTIRNTTMADFFMNDFTKEHWQKVAAKN</Hsp_hseq>
+      <Hsp_midline>Q  DP+   L    L+   ++     TI++T      +ND+ K  W+K+  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>71</Statistics_hsp-len>
+      <Statistics_eff-space>37204149</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>gi|669632476|ref|NP_001104152.3| Pp1-Y1 [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>317</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.165918</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>VEAPVNVLG------DIHG--QYNDLLRYFETSGHPPKKRY</Hsp_qseq>
+      <Hsp_hseq>VTSPVNIRGLLLANGDLSARLQYNSLIPFYYTHGFAGSKQY</Hsp_hseq>
+      <Hsp_midline>V +PVN+ G      D+    QYN L+ ++ T G    K+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232912|ref|NP_510755.4|</Hit_id>
+  <Hit_def>Protein GCY-11 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510755</Hit_accession>
+  <Hit_len>1205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.557</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>1.19662</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>729</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>LLRGNHESAAINRYYGFYDECKRRFTI</Hsp_qseq>
+      <Hsp_hseq>LMNETHEN--LNRFFGLINESDLIFTI</Hsp_hseq>
+      <Hsp_midline>L+   HE+  +NR++G  +E    FTI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232898|ref|NP_510528.3|</Hit_id>
+  <Hit_def>Protein H03A11.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510528</Hit_accession>
+  <Hit_len>1218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>19.2458</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>6.76133</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>5</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>KVRYPTSIHLLRGNHESAAINR</Hsp_qseq>
+      <Hsp_hseq>QIRHPSDHHILYSQQSRTSTNK</Hsp_hseq>
+      <Hsp_midline>++R+P+  H+L       + N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>55</Statistics_hsp-len>
+      <Statistics_eff-space>3853758</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>gi|669632471|ref|NP_001104071.2| CG40813 [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>213</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|455870262|ref|NP_510452.4|</Hit_id>
+  <Hit_def>Protein Y16B4A.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510452</Hit_accession>
+  <Hit_len>2161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>20.0162</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>2.71827</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>LLLNNKQISTR--NNS--PFYYS</Hsp_qseq>
+      <Hsp_hseq>LLLANGDLSARLQYNSLIPFYYT</Hsp_hseq>
+      <Hsp_midline>LLL N  +S R   NS  PFYY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|455835687|ref|NP_497340.4|</Hit_id>
+  <Hit_def>Protein CDH-12 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_497340</Hit_accession>
+  <Hit_len>2904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.4754</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>7.37968</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1840</Hsp_hit-from>
+      <Hsp_hit-to>1850</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>8</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>11</Hsp_align-len>
+      <Hsp_qseq>EVEEIETSDKP</Hsp_qseq>
+      <Hsp_hseq>ENEEVETPQKP</Hsp_hseq>
+      <Hsp_midline>E EE+ET  KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.0902</Hsp_bit-score>
+      <Hsp_score>35</Hsp_score>
+      <Hsp_evalue>8.78745</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>2718</Hsp_hit-from>
+      <Hsp_hit-to>2762</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>SQSSKHHNILFAEGWVEFKSKHVAKQLVLLLNNKQISTRNNSPFYYSLWSMEYLPRFKWA</Hsp_qseq>
+      <Hsp_hseq>SQNVKHTNVMI--------KRHIP-------GVRRIDSHPHAPFYVTGSSDGSIKVWKWG</Hsp_hseq>
+      <Hsp_midline>SQ+ KH N++          +H+          ++I +  ++PFY +  S   +  +KW </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|453232916|ref|NP_510854.2|</Hit_id>
+  <Hit_def>Protein T23E7.2, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510854</Hit_accession>
+  <Hit_len>900</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>18.0902</Hsp_bit-score>
+      <Hsp_score>35</Hsp_score>
+      <Hsp_evalue>9.72728</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>EVEEIETSDKPQPED</Hsp_qseq>
+      <Hsp_hseq>QVEESAPADEPAPEE</Hsp_hseq>
+      <Hsp_midline>+VEE   +D+P PE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>51</Statistics_hsp-len>
+      <Statistics_eff-space>2393874</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>gi|669632468|ref|NP_001285485.2| Sperm-specific dynein intermediate chain 4 [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>487</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|453232890|ref|NP_001257246.2|</Hit_id>
+  <Hit_def>Protein RBC-1, isoform a [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001257246</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.000637419</Hsp_evalue>
+      <Hsp_query-from>254</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>2874</Hsp_hit-from>
+      <Hsp_hit-to>2949</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>STCFAKFNPN--LILGGTYSGQIVLWDNRVQKRTPIQRTPLSAAAHTHPVYCLQMVGTQNAHNVISISSDGKLCSWSLDMLSQ</Hsp_qseq>
+      <Hsp_hseq>ATC-ALYVPNQQTIFSGGRHGEICLWDIRQRQL----RHTIKAFDQMHVVKTLATDSAQDL--IVSGSSEGDIKIWSADAIPQ</Hsp_hseq>
+      <Hsp_midline>+TC A + PN   I  G   G+I LWD R ++     R  + A    H V  L     Q+   ++S SS+G +  WS D + Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>20.4014</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>4.48445</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>2782</Hsp_hit-from>
+      <Hsp_hit-to>2900</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VVGSYHNNEESPNEPDGVVMVWN----TKFKKSTPEDVFHCQSAVMSTCFAKFNPNLILGGTYS--GQIVLWDNRVQKRTPIQRTPL-SAAAHTHPVYCLQMVGTQNAHNVISISSDGKLCSWSL</Hsp_qseq>
+      <Hsp_hseq>IAFSCNGNKFAAVDGDGMLCLWQASQATEQKKPFFSQRCHNKSATDVRFLGHSASVLLTAGSSSLDYNLGLWDTLL----PTNRALVHSWVAHPEGATCALYVPNQ--QTIFSGGRHGEICLWDI</Hsp_hseq>
+      <Hsp_midline>+  S + N+ +  + DG++ +W     T+ KK       H +SA            L+  G+ S    + LWD  +    P  R  + S  AH     C   V  Q    + S    G++C W +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>20.0162</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>6.68624</Hsp_evalue>
+      <Hsp_query-from>416</Hsp_query-from>
+      <Hsp_query-to>442</Hsp_query-to>
+      <Hsp_hit-from>1649</Hsp_hit-from>
+      <Hsp_hit-to>1675</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>TSSIKIWSLKLPISSCQFSHQPLTASL</Hsp_qseq>
+      <Hsp_hseq>TASLKICIEKIAKAAFQQNQDPMDASL</Hsp_hseq>
+      <Hsp_midline>T+S+KI   K+  ++ Q +  P+ ASL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|453232906|ref|NP_510603.2|</Hit_id>
+  <Hit_def>Protein F59F4.1 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_510603</Hit_accession>
+  <Hit_len>667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>0.283242</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>622</Hsp_hit-from>
+      <Hsp_hit-to>659</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>VMGSEDGYVYSA------SRHGLRSGVNEVYERHLGPI</Hsp_qseq>
+      <Hsp_hseq>VLGRRDGNVYPALLQWAQNSQLNRSEVLPAYEKYLGPM</Hsp_hseq>
+      <Hsp_midline>V+G  DG VY A      +    RS V   YE++LGP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|453232900|ref|NP_001263978.1|</Hit_id>
+  <Hit_def>Protein F39D8.3, isoform b [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>NP_001263978</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>21.1718</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>2.75611</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>MSTCFAKFNPNLIL----GGTYSGQIVLWD</Hsp_qseq>
+      <Hsp_hseq>LTTCKKLSQPELVAELKQKGTYNPELMAWD</Hsp_hseq>
+      <Hsp_midline>++TC     P L+      GTY+ +++ WD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17</Statistics_db-num>
+      <Statistics_db-len>15644</Statistics_db-len>
+      <Statistics_hsp-len>58</Statistics_hsp-len>
+      <Statistics_eff-space>6288282</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
