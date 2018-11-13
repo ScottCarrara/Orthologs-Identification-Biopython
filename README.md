@@ -1,4 +1,5 @@
 # Orthologs-Identification-Biopython
+<img src='https://raw.githubusercontent.com/SamSamhuns/Orthologs-Identification-Biopython/master/GeneHomology.png'>
 
 The ortholog scripts take as input, two different BLAST outputs in xml format and identify all pairs of putative orthologs from the two different species and generate the output in a text file. 
 
@@ -34,7 +35,8 @@ pip install biopython
 For windows systems, Anaconda or pip can be used.
 
 The fasta files can be used to cross and generate the XML files using the `make_blastdb.sh` file.
-Additional dependencies are required to use this shell script. 
+Additional dependencies are required to use this shell script. <br>
+http://nebc.nerc.ac.uk/bioinformatics/documentation/blast+/user_manual.pdf
 
 ## Running the tests
 
