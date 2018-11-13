@@ -1,4 +1,4 @@
-# Homolog-Identification-Biopython
+# Orthologs-Identification-Biopython
 
 The ortholog scripts take as input, two different BLAST outputs in xml format and identify all pairs of putative orthologs from the two different species and generate the output in a text file. 
 
