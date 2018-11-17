@@ -76,5 +76,5 @@ This project is licensed under the Apahce 2.0 License - see the [LICENSE.md](LIC
 ## Acknowledgments
 
 * Python open source libraries
-* Biopython NCBI package and Biopython Developers
+* Biopython NCBI package and Biopython Developers https://github.com/biopython/biopython
 * NCBI https://www.ncbi.nlm.nih.gov/
