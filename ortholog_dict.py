@@ -26,7 +26,7 @@ cd_parse = NCBIXML.parse(cd_file)
 dc_parse = NCBIXML.parse(dc_file)
 
 # Setting the E_VALUE threshold
-E_VALUE_THRESH = 10e-20
+E_VALUE_THRESH = 1
 
 # using data structure Dictionary / Hash tables
 # This is a dictionary of lists ( But the lists do not affect the Big Oh runtime )
