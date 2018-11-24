@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.6"
+install:
+  pip install -r requirements.txt
+script:
+  python3 ortholog_dict.py celegans_drosophila.xml drosophila_celegans.xml output1
+  python3 ortholog_array.py celegans_drosophila.xml drosophila_celegans.xml output2
