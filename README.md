@@ -1,4 +1,7 @@
-# Orthologs-Identification-Biopython [![Build Status](https://travis-ci.org/SamSamhuns/Orthologs-Identification-Biopython.svg?branch=master)](https://travis-ci.org/SamSamhuns/Orthologs-Identification-Biopython)
+# Orthologs-Identification-Biopython 
+
+[![Build Status](https://travis-ci.org/SamSamhuns/Orthologs-Identification-Biopython.svg?branch=master)](https://travis-ci.org/SamSamhuns/Orthologs-Identification-Biopython) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f3658d27da7455fb6a4d4b343573426)](https://www.codacy.com/app/samhunsadamant/Orthologs-Identification-Biopython?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SamSamhuns/Orthologs-Identification-Biopython&amp;utm_campaign=Badge_Grade) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 <img src='https://raw.githubusercontent.com/SamSamhuns/Orthologs-Identification-Biopython/master/GeneHomology.png'>
 
 The ortholog scripts take as input, two different BLAST outputs in xml format and identify all pairs of putative orthologs from the two different species and generate the output in a text file. 
