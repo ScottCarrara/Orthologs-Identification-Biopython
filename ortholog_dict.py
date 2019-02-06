@@ -1,4 +1,3 @@
-import Bio
 import sys
 from Bio.Blast import NCBIXML
 
