@@ -1,25 +1,24 @@
-# Orthologs-Identification-Biopython 
+# Orthologs-Identification-Biopython
 
 [![Build Status](https://travis-ci.org/SamSamhuns/Orthologs-Identification-Biopython.svg?branch=master)](https://travis-ci.org/SamSamhuns/Orthologs-Identification-Biopython) [![Updates](https://pyup.io/repos/github/SamSamhuns/Orthologs-Identification-Biopython/shield.svg)](https://pyup.io/repos/github/SamSamhuns/Orthologs-Identification-Biopython/) [![Python 3](https://pyup.io/repos/github/SamSamhuns/Orthologs-Identification-Biopython/python-3-shield.svg)](https://pyup.io/repos/github/SamSamhuns/Orthologs-Identification-Biopython/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f3658d27da7455fb6a4d4b343573426)](https://www.codacy.com/app/samhunsadamant/Orthologs-Identification-Biopython?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SamSamhuns/Orthologs-Identification-Biopython&amp;utm_campaign=Badge_Grade) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 <img src='https://raw.githubusercontent.com/SamSamhuns/Orthologs-Identification-Biopython/master/GeneHomology.png'>
 
-The ortholog scripts take as input, two different BLAST outputs in xml format and identify all pairs of putative orthologs from the two different species and generate the output in a text file. 
+The ortholog scripts take as input, two different BLAST outputs in xml format and identify all pairs of putative orthologs from the two different species and generate the output in a text file.
 
 These scripts only consider e-values less than 10e-20.
 
 The idea is simple, let’s say in Species A the proteins are noted A1, A2, A3 and in Species B they are B1, B2, B3. Let’s say A1 matches B1, B2, and B3 (i.e. "matches" means there is a HSP between them). Now let’s assume that B1 and B3 match A1. Pairs of putative orthologs would be:
 
-A1 B1 
+A1 B1
 
 A1 B3
 
-Note that A1 and B1 are not homologous pairs because A1 is not reciprocally a hit for B1. Now let’s assume that protein B1 from species B matches A3 from species A, then A3 is a homologous pair with B1. 
+Note that A1 and B1 are not homologous pairs because A1 is not reciprocally a hit for B1. Now let’s assume that protein B1 from species B matches A3 from species A, then A3 is a homologous pair with B1.
 
 The output is a simple tab separated file with protein from one species in the first column and its ortholog pair from the other species in the second column. The protein definitions (e.g. 'gi| 671162305|ref|NP_007188796.2| CG30261, isoform I [Drosophila melanogaster]') are used to label the proteins. If a protein in species 1 does not have a pair in species 2, it is not printed out.
 
 An optional final argument is included, such that if "FALSE" is passed as the last argument then the definition of a reciprocal match is no longer both a HSP from species A to B and species B to A, but is defined as a HSP from species A to B or species B to A.
-
 
 ## Prerequisites
 Recommended Python 3.6.0 or later
@@ -39,7 +38,7 @@ For windows systems, Anaconda or pip can be used.
 
 The fasta files can be used to cross and generate the XML files using the `make_blastdb.sh` file.
 Additional dependencies are required to use this shell script. <br>
-http://nebc.nerc.ac.uk/bioinformatics/documentation/blast+/user_manual.pdf
+<http://nebc.nerc.ac.uk/bioinformatics/documentation/blast+/user_manual.pdf>
 
 ## Running the tests
 
@@ -54,15 +53,15 @@ C:\Python36\python.exe C:\Users\...Path....\ortholog_dict.py cross_1.xml cross_2
 
 In Unix, Linux and other BSD based systems, open bash shell then enter
 
-```
-chmod +x orthologs.py
-python3 ortholog_dict.py cross_1.xml cross_2.xml orthologs_output.txt [FALSE]
+```shell
+$ chmod +x orthologs.py
+$ python3 ortholog_dict.py cross_1.xml cross_2.xml orthologs_output.txt [FALSE]
 ```
 The `[FALSE]` flag is optional for redefining the definition of homolog pairs.
 
 ## Built With
 
-* [Python 3.6](https://www.python.org/downloads/release/python-360/) - The Programming tool used
+*   [Python 3.6](https://www.python.org/downloads/release/python-360/) - The Programming tool used
 
 ## Versioning
 
@@ -70,7 +69,7 @@ Version tracked online with GitHub
 
 ## Authors
 
-* **Samridha Shrestha**
+*   **Samridha Shrestha**
 
 ## License
 
@@ -78,6 +77,6 @@ This project is licensed under the Apahce 2.0 License - see the [LICENSE.md](LIC
 
 ## Acknowledgments
 
-* Python open source libraries
-* Biopython NCBI package and Biopython Developers https://github.com/biopython/biopython
-* NCBI https://www.ncbi.nlm.nih.gov/
+*   Python open source libraries
+*   Biopython NCBI package and Biopython Developers https://github.com/biopython/biopython
+*   NCBI https://www.ncbi.nlm.nih.gov/
